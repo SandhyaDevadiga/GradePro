@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+input{
+background-color: #f8f9fa;
+ border: 1px solid #ced4da;
+ border-radius:0.25rem;
+ color:#495057
+}
+</style>
+
+<body>
+<form action="Login">
+<table border="1px" id="customers">
+<tr>
+<th>Subject Name</th>
+<th>Subject Code</th>
+<th>Total marks</th>
+<th>Obtained Marks</th>
+</tr>
+<tr>
+<td><input type="text" name="subjectName1"></td>
+<td><input type="text" name="subjectCode1"></td>
+<td><input type="text" name="totalmarks1"></td>
+<td><input type="text" name="obtainedmarks1"></td>
+</tr>
+<tr>
+<td><input type="text" name="subjectName2"></td>
+<td><input type="text" name="subjectCode2"></td>
+<td><input type="text" name="totalmarks2"></td>
+<td><input type="text" name="obtainedmarks2"></td>
+
+</tr>
+<tr>
+<td><input type="text" name="subjectName3"></td>
+<td><input type="text" name="subjectCode3"></td>
+<td><input type="text" name="totalmarks3"></td>
+<td><input type="text" name="obtainedmarks3"></td>
+
+</tr>
+<tr>
+<td><input type="text" name="subjectName4"></td>
+<td><input type="text" name="subjectCode4"></td>
+<td><input type="text" name="totalmarks4"></td>
+<td><input type="text" name="obtainedmarks4"></td>
+
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><input type="submit" name="submit"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
